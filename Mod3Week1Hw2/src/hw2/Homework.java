@@ -9,7 +9,7 @@ public class Homework {
 		System.out.println("enter fibonacci series number");
 		int fibNum = scan.nextInt();
 		fibonacci(fibNum);
-		System.out.println("enter armstrong number");
+		System.out.println("enter possible 3 digit armstrong number");
 		int armNum = scan.nextInt();
 		armstrong(armNum);
 		System.out.println("enter string to check if palindrome");
@@ -21,8 +21,7 @@ public class Homework {
 	public static void fibonacci(int n) {
 		int num1 = 0, num2 = 1;
 		for(int i = 0; i < n; i++) {
-			System.out.print(num1 + ", ");
-			
+			System.out.print(num1 + ", ");			
 			int num3 = num1 + num2;
 			num1 = num2;
 			num2 = num3;			
